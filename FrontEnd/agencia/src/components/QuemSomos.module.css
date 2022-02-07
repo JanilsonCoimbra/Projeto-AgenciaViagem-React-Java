@@ -1,0 +1,15 @@
+.section{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content{
+    width: 40%;
+    text-align: justify;
+    
+}
+.imagens{
+    width: 370px;
+    max-height: 400px;
+}

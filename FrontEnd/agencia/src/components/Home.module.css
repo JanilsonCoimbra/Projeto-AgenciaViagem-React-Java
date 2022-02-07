@@ -1,0 +1,96 @@
+.imgBanner{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../../public/img/FOTO-1-shutterstock_456303397-600x900-1@2x.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.sections{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('../../public/img/Caminho\ 6.png');
+    background-size: 104%;
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+.sections1{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
+.sections2{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+    background-image: url('../../public/img/Caminho\ 5.png');
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-clip: padding-box;
+    background-attachment: fixed;
+}
+.titulo{
+    width: 100%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.sections > p {
+    font-size: 50px;
+    max-width: 400px;
+    font-weight: 900;
+}
+.sections > div > img {
+    min-width: 375px;
+    max-width: 500px;
+}
+.sections2 > p {
+    font-size: 50px;
+    max-width: 400px;
+    font-weight: 900;
+}
+.sections2 > div > img {
+    min-width: 375px;
+    max-width: 500px;
+}
+.imgBanner > h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    min-width: 40%;
+    margin: 10%;
+    text-shadow: 10px 5px 10px rgb(48, 77, 156);
+}
+.imgBanner > p {
+    color: white;
+    font-size: 30px;
+    margin-left: 10%;
+    text-shadow: 10px 5px 50px 5px rgb(48, 77, 156);
+
+}
+.imgBanner > a {
+    margin-left: 10%;
+}
+@media(max-width: 480px){
+    .sections > p {
+        font-size: 40px;
+    }
+    .sections2 > p {
+        font-size: 40px;
+    }
+}
