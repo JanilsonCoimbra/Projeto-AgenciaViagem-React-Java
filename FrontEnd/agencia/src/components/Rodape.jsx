@@ -2,7 +2,7 @@ import styles from './Rodape.module.css'
 import { Link } from 'react-router-dom'
 function Rodape(){
     return(<>
-        <footer className="page-footer" className={styles.rodape}>
+        <footer className={styles.rodape "page-footer"}>
           <div className="container">
             <div className="row">
               <div className="col l6 s12">
@@ -12,7 +12,7 @@ function Rodape(){
               <div className="col l4 offset-l2 s12">
                 <h5 className="white-text">Links</h5>
                 <ul>
-                <Link to="/Destinos" className="btn waves waves-teal">Destinos</Link>
+                <Link className="btn waves waves-teal" to="/Destinos">Destinos</Link>
                 <Link className="nav-link" to="/Destinos">Destinos</Link>
                 <Link className="nav-link" to="/Quemsomos">Quem Somos</Link>
                 <Link className="nav-link" to="/Contatos">Contatos</Link>
