@@ -2,7 +2,7 @@ import styles from './Rodape.module.css'
 import { Link } from 'react-router-dom'
 function Rodape(){
     return(<>
-        <footer className={styles.rodape, "page-footer"}>
+        <footer className={styles.rodape}>
           <div className="container">
             <div className="row">
               <div className="col l6 s12">
