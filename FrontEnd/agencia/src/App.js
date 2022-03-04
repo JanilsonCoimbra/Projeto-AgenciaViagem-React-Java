@@ -1,6 +1,6 @@
 import Header from './components/Header'
 import Rodape from './components/Rodape.jsx'
-import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { lazy, useEffect } from 'react'
 import { Suspense } from 'react/cjs/react.production.min'
 import Load from './components/Load'
