@@ -1,5 +1,4 @@
 import styles from './Cadastro.module.css'
-import { useParams, useSearchParams } from 'react-router-dom'
 import { Suspense } from 'react/cjs/react.production.min'
 
 function Cadastro(props) {
