@@ -5,7 +5,7 @@ function Cards(props) {
             <div className={styles.tamanho}>
                 <div className="card">
                     <div className="card-image waves-effect waves-block waves-light">
-                        <img className="activator" src={props.img} />
+                        <img className="activator" src={props.img} alt=""/>
                     </div>
                     <div className="card-content" data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
