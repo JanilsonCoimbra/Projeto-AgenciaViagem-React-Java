@@ -13,7 +13,7 @@ function QuemSomos() {
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim vel maxime accusantium perferendis impedit reprehenderit voluptas nam placeat repudiandae hic, velit dignissimos at incidunt laborum pariatur accusamus ullam neque debitis!</p>
 
                 </div>
-                <img src="./img\undraw_Preferences_popup_re_4qk0.png" className={styles.imagens}></img>
+                <img src="./img\undraw_Preferences_popup_re_4qk0.png" className={styles.imagens} alt=""></img>
 
             </section>
 
